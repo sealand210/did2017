@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Diy | Dreaming in Digital]]></title>
-  <link href="http://sealand210.github.io//blog/categories/diy/atom.xml" rel="self"/>
-  <link href="http://sealand210.github.io//"/>
-  <updated>2017-02-04T12:03:58+08:00</updated>
-  <id>http://sealand210.github.io//</id>
+  <link href="http://evanhung.com/did2017/blog/categories/diy/atom.xml" rel="self"/>
+  <link href="http://evanhung.com/did2017/"/>
+  <updated>2017-02-04T12:06:29+08:00</updated>
+  <id>http://evanhung.com/did2017/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[AKG K518DJ Detachable Cable Modification]]></title>
-    <link href="http://sealand210.github.io//blog/2012/04/22/akg-k518dj-single-entry-with-detachable-cable-modification/"/>
+    <link href="http://evanhung.com/did2017/blog/2012/04/22/akg-k518dj-single-entry-with-detachable-cable-modification/"/>
     <updated>2012-04-22T14:21:00+08:00</updated>
-    <id>http://sealand210.github.io//blog/2012/04/22/akg-k518dj-single-entry-with-detachable-cable-modification</id>
+    <id>http://evanhung.com/did2017/blog/2012/04/22/akg-k518dj-single-entry-with-detachable-cable-modification</id>
     <content type="html"><![CDATA[<p><img src="/images/518dj-2.jpg"></p>
 
 <p>I like the design of Monster headphones, especially the detachable cable and it&rsquo;s cable design, but I don&rsquo;t appreciate it&rsquo;s sound quality and price tag. My AKG 518dj headphone is the best headphone in it&rsquo;s price range, but it also came with a long, old fashioned and undetachable cable. So I decide to modify it, make it&rsquo;s cable function just like Monsters, and then give it a Monster cable.</p>

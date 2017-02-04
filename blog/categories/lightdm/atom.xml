@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Lightdm | Dreaming in Digital]]></title>
-  <link href="http://sealand210.github.io//blog/categories/lightdm/atom.xml" rel="self"/>
-  <link href="http://sealand210.github.io//"/>
-  <updated>2017-02-04T12:03:58+08:00</updated>
-  <id>http://sealand210.github.io//</id>
+  <link href="http://evanhung.com/did2017/blog/categories/lightdm/atom.xml" rel="self"/>
+  <link href="http://evanhung.com/did2017/"/>
+  <updated>2017-02-04T12:06:29+08:00</updated>
+  <id>http://evanhung.com/did2017/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Setting Ubuntu LightDM]]></title>
-    <link href="http://sealand210.github.io//blog/2012/03/30/setting-lightdm/"/>
+    <link href="http://evanhung.com/did2017/blog/2012/03/30/setting-lightdm/"/>
     <updated>2012-03-30T23:57:00+08:00</updated>
-    <id>http://sealand210.github.io//blog/2012/03/30/setting-lightdm</id>
+    <id>http://evanhung.com/did2017/blog/2012/03/30/setting-lightdm</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/LightDM.png"></p>
 
 <p>Ubuntu Oneiric comes with a new display/login manager - <code>LightDM</code>. Just like setting <code>GDM</code>, <code>XDM</code> or <code>KDM</code> etc., LightDM can also be set to auto-login by creating a custom file named <code>lightdm.conf</code> under <code>/etc/lightdm</code> directory. This way you can also define your preferred auto-login session.</p>
