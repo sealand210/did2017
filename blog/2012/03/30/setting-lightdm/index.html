@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Setting Ubuntu LightDM - Dreaming in Digital</title>
+  <meta name="author" content="Evan Hung">
+
+  
+  <meta name="description" content="Ubuntu Oneiric comes with a new display/login manager - LightDM. Just like setting GDM, XDM or KDM etc., LightDM can also be set to auto-login by &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://sealand210.github.io//blog/2012/03/30/setting-lightdm/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Dreaming in Digital" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="/javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   class="no-sidebar"  >
+  <header role="banner"><div style="display: block; margin-left: 0; margin-right: auto; max-width: 100%; width: 850px; padding-bottom: -1.75em;">
+<a href="/">
+	<img src="/images/logo.png" style="max-width:100%;"/>
+</a>
+</div>
+
+
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="sitesearch" value="sealand210.github.io/">
+    <input class="search" type="text" name="q" results="0" placeholder="搜索"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">博客</a></li>
+  <li><a href="/blog/archives">目录</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Setting Ubuntu LightDM</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2012-03-30T23:57:00+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>11:57 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><img class="center" src="/images/LightDM.png"></p>
+
+<p>Ubuntu Oneiric comes with a new display/login manager - <code>LightDM</code>. Just like setting <code>GDM</code>, <code>XDM</code> or <code>KDM</code> etc., LightDM can also be set to auto-login by creating a custom file named <code>lightdm.conf</code> under <code>/etc/lightdm</code> directory. This way you can also define your preferred auto-login session.</p>
+
+<p>So, get to a Terminal and run:</p>
+
+<pre><code>gksudo gedit /etc/lightdm/lightdm.conf
+</code></pre>
+
+<p>If you are doing it from the console, you would need to use &lsquo;nano&rsquo; instead of &lsquo;gedit&rsquo; and &lsquo;sudo&rsquo; instead o &lsquo;gksudo&rsquo;.</p>
+
+<p>In the file that opens up, enter this text:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>[SeatDefaults]
+</span><span class='line'>autologin-user=&lt;USERNAME&gt;
+</span><span class='line'>autologin-user-timeout=0
+</span><span class='line'>user-session=ubuntu
+</span><span class='line'>greeter-session=unity-greeter</span></code></pre></td></tr></table></div></figure>
+
+
+<!-- more -->    
+
+
+<p>Replace &lsquo;<USERNAME>&rsquo; with your username and &lsquo;ubuntu&rsquo; with your preferred session if you want to automatically log in to some other session than regular Unity. These are the most common session options:</p>
+
+<p><code>Ubuntu</code> (regular Unity) :<code>ubuntu</code>  <br/>
+<code>Ubuntu 2D</code> (Unity 2D) :<code>ubuntu-2d</code>   <br/>
+<code>GNOME</code> (Gnome Shell) :<code>gnome-shell</code>    <br/>
+<code>GNOME Classic</code> :<code>gnome-classic</code>  <br/>
+<code>GNOME Classic (No effects)</code> :<code>gnome-fallback</code></p>
+
+<h2>Timed Auto-Login and More Advanced Options</h2>
+
+<p>File /Users/99741/Blog/did2017/octopress/source/downloads/code/lightdm.conf could not be found</p>
+
+<h2>reference:</h2>
+
+<p><a href="http://www.tuxgarage.com/2011/09/setting-lightdm-to-auto-login-oneiric.html">http://www.tuxgarage.com/2011/09/setting-lightdm-to-auto-login-oneiric.html</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Evan Hung</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2012-03-30T23:57:00+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2012</span></span> <span class='time'>11:57 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/lightdm/'>lightdm</a>, <a class='category' href='/blog/categories/linux/'>linux</a>, <a class='category' href='/blog/categories/ubuntu/'>ubuntu</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://sealand210.github.io//blog/2012/03/30/setting-lightdm/" data-via="HungEvan" data-counturl="http://sealand210.github.io//blog/2012/03/30/setting-lightdm/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/03/16/the-very-first-post/" title="Previous Post: The very first post">&laquo; The very first post</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/04/02/disable-internal-display-on-lion/" title="Next Post: Disable internal display in lion">Disable internal display in lion &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2017 - Evan Hung -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
