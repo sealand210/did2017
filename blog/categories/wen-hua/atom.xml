@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 文化 | Dreaming in Digital]]></title>
-  <link href="http://evanhung.com/did2017/blog/categories/wen-hua/atom.xml" rel="self"/>
-  <link href="http://evanhung.com/did2017/"/>
-  <updated>2017-02-07T10:44:09+08:00</updated>
-  <id>http://evanhung.com/did2017/</id>
+  <link href="http://evanhung.com/blog/categories/wen-hua/atom.xml" rel="self"/>
+  <link href="http://evanhung.com/"/>
+  <updated>2017-02-07T19:35:57+08:00</updated>
+  <id>http://evanhung.com/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[左脑与右脑，文化和创新]]></title>
-    <link href="http://evanhung.com/did2017/blog/2012/06/20/the-very-first-post/"/>
+    <link href="http://evanhung.com/blog/2012/06/20/the-very-first-post/"/>
     <updated>2012-06-20T16:35:00+08:00</updated>
-    <id>http://evanhung.com/did2017/blog/2012/06/20/the-very-first-post</id>
+    <id>http://evanhung.com/blog/2012/06/20/the-very-first-post</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/brain-creativity.jpg" width="626" height="626" title="brain-creativity.jpg" ></p>
 
 <p>我最近思考了一些问题，其中一个问题是为什么中国人缺乏创新？经过一些粗略的研究，我发现这个问题涉及到大脑结构，工作，教育和社会文化这四个方面的问题。<!-- more --></p>

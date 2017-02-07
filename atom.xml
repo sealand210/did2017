@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Dreaming in Digital]]></title>
-  <link href="http://evanhung.com/did2017/atom.xml" rel="self"/>
-  <link href="http://evanhung.com/did2017/"/>
-  <updated>2017-02-07T10:44:09+08:00</updated>
-  <id>http://evanhung.com/did2017/</id>
+  <link href="http://evanhung.com/atom.xml" rel="self"/>
+  <link href="http://evanhung.com/"/>
+  <updated>2017-02-07T19:35:57+08:00</updated>
+  <id>http://evanhung.com/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,20 +15,20 @@
   
   <entry>
     <title type="html"><![CDATA[福岛核事故与长期危害]]></title>
-    <link href="http://evanhung.com/did2017/blog/2017/02/04/the-fukushima-nuclear-accident/"/>
+    <link href="http://evanhung.com/blog/2017/02/04/the-fukushima-nuclear-accident/"/>
     <updated>2017-02-04T15:12:38+08:00</updated>
-    <id>http://evanhung.com/did2017/blog/2017/02/04/the-fukushima-nuclear-accident</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://evanhung.com/did2017/images/fukushima-tsunami.jpg" width="624" height="408" title="fukushima-tsunami.jpg" >
+    <id>http://evanhung.com/blog/2017/02/04/the-fukushima-nuclear-accident</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://evanhung.com/images/fukushima-tsunami.jpg" width="624" height="408" title="fukushima-tsunami.jpg" >
 2012年日本福岛第一核电站四个反应堆中的三个发生氢爆炸，释放出大量的放射性污染物。 虽然这个事故已经过去了5年，但是污染还在持续。基于很多人对这些污染物的长期危害缺乏认识和研究，本文将尝试从几个方面去对其进行探讨和分析。<!-- more --></p>
 
 <h2>污染物的成分与半衰期</h2>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/fukushima-fifth-anniversary.jpeg">
+<p><img class="center" src="http://evanhung.com/images/fukushima-fifth-anniversary.jpeg">
 首先务必要了解什么是放射性污染物。<a href="https://en.wikipedia.org/wiki/Nuclear_fission">由于核裂变会产生大量放射性同位素</a>，所以放射性污染物的成分也是五花八门。 但是比例最高的通常是3样：<a href="https://en.wikipedia.org/wiki/Radioactive_contamination">碘131（半衰期8天），铯134（半衰期2年）和铯137（半衰期30年）</a>. 取决于放射物浓度的强弱，通常放射性同位素需要经过10到20个半衰期才能达到安全的辐射水平，也就是说福岛许多被污染的地区需要至少300到600年才能恢复到相对安全的水平。</p>
 
 <h2>被污染的区域</h2>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/im77g.jpg">
+<p><img class="center" src="http://evanhung.com/images/im77g.jpg">
 日本政府划分了以核电站为中心半径为30公里的区域为污染禁区。但实际上被污染的区域要大的多，<a href="http://kipuka.blog70.fc2.com/blog-entry-765.html">达到了以核电站为中心半径300公里的区域</a>。这个区域包括了东京和其周边的县，市。</p>
 
 <p>在2016年3月，<a href="http://www.fairewinds.org/nuclear-energy-education/fukushima5">美国核工程师Arnold Gundersen前往日本福岛以及东京周边地区做了一个为期30天的调查和研究</a>。在他的报告中指出，东京郊区的每公斤土壤和灰尘中仍含有4000贝克的放射性铯137（若每秒有一个原子衰变，其放射性活度即为1贝克）。 而日本政府官方声明已经没有放射性危害的接近福岛的区域里的每公斤土壤仍含有30万贝克的放射性铯137。</p>
@@ -36,13 +36,13 @@
 <p>福岛核事故也对海洋造成了大剂量的污染。据官方提供的数据，爆炸时产生的污染物的80%已被排入太平洋。由于融化的反应堆无法处理并深埋于地下，大量的污染物接触到了地下水，加上铯137可溶于水的特性，<a href="https://www.theguardian.com/environment/2016/apr/13/is-it-safe-to-dump-fukushima-waste-into-the-sea">每天有数百吨的放射性污水被持续的排入海洋</a>。</p>
 
 <p>根据 ourradioactiveocean.org 的检测报告，<a href="http://ourradioactiveocean.org">每公斤的太平洋海水现已含有3贝克左右的铯137</a>。
-<img class="center" src="http://evanhung.com/did2017/images/Fukushima-Contamination-Pacific-Ocean.jpg"></p>
+<img class="center" src="http://evanhung.com/images/Fukushima-Contamination-Pacific-Ocean.jpg"></p>
 
 <h2>核安全意识的匮乏</h2>
 
 <p>许多人对放射性物质的危害缺乏了解，毕竟辐射是个看不见也摸不找的东西。由于类似铯137的放射性物质并不存在自然环境中，再加上人类利用核能也只有几十年的历史，这就成了自然而然的现象。在冷战时期，<a href="https://en.wikipedia.org/wiki/Nuclear_weapons_testing">美国军方曾经常在内华达州的沙漠上空进行核爆实验</a>。很多游客慕名前往拉斯维加斯等地观看核爆，这项活动甚至出现在了很多拉斯维加斯酒店招揽顾客的广告里面。然而在接下来的几年中，该区域高发的癌症率使得美国政府意识到了核辐射的危害，并在1963年停止了高空核爆实验。</p>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/lasvagas.jpg"></p>
+<p><img class="center" src="http://evanhung.com/images/lasvagas.jpg"></p>
 
 <p>直到今天，核辐射的长期危害仍没有统一的答案。在食品安全方面，各个国家的标准也不同。例如，<a href="http://bmfoodcoop.org.au/wp-content/uploads/2013/04/Japanese-Food-Safety-Report.pdf">美国允许食品中存在高达1200贝克每公斤的放射性物质，而德国只允许最高5贝克每公斤</a>。</p>
 
@@ -50,7 +50,7 @@
 
 <p>铯137为什么这么危险？原因就在于原子所蕴含的大量原子能。 <a href="https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence">根据爱因斯坦的被检验过无数次的质能转换公式e=mcc</a>, 物质所蕴含的能量是其重量的900亿倍（光速的平方）。根据这个公式，一粒沙子所蕴含的原子能若全部释放并转换成电能，然后以今天的电价卖给电网，则可以获得约2万美元的收入。可想而知即使原子释放小部分原子能也能对对人体造很大的伤害。</p>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/eeqmc2.jpg"></p>
+<p><img class="center" src="http://evanhung.com/images/eeqmc2.jpg"></p>
 
 <p>放射性同位素如铯137，由于其原子结构的不稳定性，会缓慢的以高能伽马射线的方式释放这种原子能，直到原子结构稳定为止。伽马射线由于其高能高频的特征，可以穿透大部分物质，包括人体。 若伽马射线射中细胞中的DNA则会对其造成一定的损伤。若损伤过大，并且细胞无法及时对其修复，则该细胞会有转变为癌细胞可能。</p>
 
@@ -66,14 +66,14 @@
 
 <h2>安全的底线在哪里</h2>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/11987_helen1_10-6-04.jpg">
+<p><img class="center" src="http://evanhung.com/images/11987_helen1_10-6-04.jpg">
 究竟摄入多少贝克的铯137是安全？<a href="http://bmfoodcoop.org.au/wp-content/uploads/2013/04/Japanese-Food-Safety-Report.pdf">澳洲的一位名医 Dr. Helen Caldicott 给出了答案：零容忍</a>。 这也是也是本人比较赞同的标准。食品存在一定的放射性是没有问题的，只要是半衰期短，计量低的就可以。但食品不应该含有任何的类似铯137的强辐射污染物。</p>
 
 <p>但是各国的食品检验机构只对食品做少量抽检，并且因为成本高很少做伽马射线频谱分析来确定食品是否含有铯137。</p>
 
 <h2>海产与日本食品的风险</h2>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/japanese-fish-market-080804.jpg">
+<p><img class="center" src="http://evanhung.com/images/japanese-fish-market-080804.jpg">
 因为海洋已被污染，在生物性堆积作用下，食物链顶端的鱼体内都会含有浓度较高的铯137，尤其是迁移性很强的鱼, <a href="https://swfsc.noaa.gov/textblock.aspx?Division=FRD&amp;id=20593">如吞拿鱼</a>。 作物也会将土壤里的放射性物质浓缩到果实和茎叶中，所以福岛核电站为中心，<a href="http://nypost.com/2011/06/09/japans-green-tea-contaminated-with-radiation/">300公里范围内的种植的作物也会含有浓度较高的铯137</a>。 摄入这些食品会有较高的长期健康风险。</p>
 
 <h2>日本政府的态度</h2>
@@ -86,7 +86,7 @@
 
 <p>最近日本政府还在考虑在<a href="http://www.japantimes.co.jp/news/2016/11/09/national/fukushima-eyed-baseball-softball-games-2020-olympics/">福岛举办2020奥林匹克运动会</a>来恢复该地区的名声。</p>
 
-<p><img class="center" src="http://evanhung.com/did2017/images/japan-olympic.jpg" width="870" height="683" title="japan-olympic.jpg" ></p>
+<p><img class="center" src="http://evanhung.com/images/japan-olympic.jpg" width="870" height="683" title="japan-olympic.jpg" ></p>
 
 <h2>总结</h2>
 
@@ -96,10 +96,10 @@
   
   <entry>
     <title type="html"><![CDATA[左脑与右脑，文化和创新]]></title>
-    <link href="http://evanhung.com/did2017/blog/2012/06/20/the-very-first-post/"/>
+    <link href="http://evanhung.com/blog/2012/06/20/the-very-first-post/"/>
     <updated>2012-06-20T16:35:00+08:00</updated>
-    <id>http://evanhung.com/did2017/blog/2012/06/20/the-very-first-post</id>
-    <content type="html"><![CDATA[<p><img class="center" src="http://evanhung.com/did2017/images/brain-creativity.jpg" width="626" height="626" title="brain-creativity.jpg" ></p>
+    <id>http://evanhung.com/blog/2012/06/20/the-very-first-post</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://evanhung.com/images/brain-creativity.jpg" width="626" height="626" title="brain-creativity.jpg" ></p>
 
 <p>我最近思考了一些问题，其中一个问题是为什么中国人缺乏创新？经过一些粗略的研究，我发现这个问题涉及到大脑结构，工作，教育和社会文化这四个方面的问题。<!-- more --></p>
 

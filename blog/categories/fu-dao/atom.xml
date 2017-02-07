@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 福岛 | Dreaming in Digital]]></title>
-  <link href="http://evanhung.com/did2017/blog/categories/fu-dao/atom.xml" rel="self"/>
-  <link href="http://evanhung.com/did2017/"/>
-  <updated>2017-02-07T10:44:09+08:00</updated>
-  <id>http://evanhung.com/did2017/</id>
+  <link href="http://evanhung.com/blog/categories/fu-dao/atom.xml" rel="self"/>
+  <link href="http://evanhung.com/"/>
+  <updated>2017-02-07T19:35:57+08:00</updated>
+  <id>http://evanhung.com/</id>
   <author>
     <name><![CDATA[Evan Hung]]></name>
     <email><![CDATA[mail2evan@me.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[福岛核事故与长期危害]]></title>
-    <link href="http://evanhung.com/did2017/blog/2017/02/04/the-fukushima-nuclear-accident/"/>
+    <link href="http://evanhung.com/blog/2017/02/04/the-fukushima-nuclear-accident/"/>
     <updated>2017-02-04T15:12:38+08:00</updated>
-    <id>http://evanhung.com/did2017/blog/2017/02/04/the-fukushima-nuclear-accident</id>
+    <id>http://evanhung.com/blog/2017/02/04/the-fukushima-nuclear-accident</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/fukushima-tsunami.jpg" width="624" height="408" title="fukushima-tsunami.jpg" >
 2012年日本福岛第一核电站四个反应堆中的三个发生氢爆炸，释放出大量的放射性污染物。 虽然这个事故已经过去了5年，但是污染还在持续。基于很多人对这些污染物的长期危害缺乏认识和研究，本文将尝试从几个方面去对其进行探讨和分析。<!-- more --></p>
 
