@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://evanhung.com/blog/2017/02/14/chinese-traditional-medicine/</loc>
+<lastmod>2017-02-14T14:15:03+08:00</lastmod>
+</url>
+<url>
 <loc>http://evanhung.com/blog/2017/02/04/the-fukushima-nuclear-accident/</loc>
 <lastmod>2017-02-04T15:12:38+08:00</lastmod>
 </url>
@@ -37,6 +41,15 @@
 </url>
 <url>
 <loc>http://evanhung.com/blog/categories/ri-ben/</loc>
+</url>
+<url>
+<loc>http://evanhung.com/blog/categories/zhong-yi/</loc>
+</url>
+<url>
+<loc>http://evanhung.com/blog/categories/yi-xue/</loc>
+</url>
+<url>
+<loc>http://evanhung.com/blog/categories/yao-xue/</loc>
 </url>
 <url>
 <loc>http://evanhung.com/bnls.html</loc>
