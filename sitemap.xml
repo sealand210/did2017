@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://evanhung.com/blog/2017/02/14/chinese-traditional-medicine/</loc>
+<loc>http://evanhung.com/blog/2017/02/23/psycholigical-test/</loc>
+<lastmod>2017-02-23T22:01:03+08:00</lastmod>
+</url>
+<url>
+<loc>http://evanhung.com/blog/2017/02/14/chinese-traditional-medicine%20copy/</loc>
 <lastmod>2017-02-14T14:15:03+08:00</lastmod>
 </url>
 <url>
@@ -50,6 +54,9 @@
 </url>
 <url>
 <loc>http://evanhung.com/blog/categories/yao-xue/</loc>
+</url>
+<url>
+<loc>http://evanhung.com/blog/categories/xin-li-ce-shi/</loc>
 </url>
 <url>
 <loc>http://evanhung.com/bnls.html</loc>
